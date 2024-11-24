@@ -1,6 +1,6 @@
-const {projectElement}=require('../pages/component/project')
-const {homeElement}=require('../pages/component/home')
-const { headLink } = require('../pages/commomComponent')
+const {projectElement}=require('./component/project')
+const {homeElement}=require('./component/home')
+const { headLink } = require('./commomComponent')
 const express = require('express');
 const router = express.Router();
 
